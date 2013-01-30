@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E5EA20516B907290004284F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5EA20416B907290004284F /* UIKit.framework */; };
+		9E5EA20716B907290004284F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5EA20616B907290004284F /* Foundation.framework */; };
+		9E5EA20916B907290004284F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5EA20816B907290004284F /* CoreGraphics.framework */; };
+		9E5EA20F16B907290004284F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E5EA20D16B907290004284F /* InfoPlist.strings */; };
+		9E5EA21116B907290004284F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5EA21016B907290004284F /* main.m */; };
+		9E5EA21516B907290004284F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5EA21416B907290004284F /* AppDelegate.m */; };
+		9E5EA21716B907290004284F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E5EA21616B907290004284F /* Default.png */; };
+		9E5EA21916B907290004284F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E5EA21816B907290004284F /* Default@2x.png */; };
+		9E5EA21B16B907290004284F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E5EA21A16B907290004284F /* Default-568h@2x.png */; };
+		9E5EA21E16B907290004284F /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E5EA21C16B907290004284F /* MainStoryboard_iPhone.storyboard */; };
+		9E5EA22116B907290004284F /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E5EA21F16B907290004284F /* MainStoryboard_iPad.storyboard */; };
+		9E5EA22416B907290004284F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5EA22316B907290004284F /* ViewController.m */; };
+		9E5EA22C16B907290004284F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5EA22B16B907290004284F /* SenTestingKit.framework */; };
+		9E5EA22D16B907290004284F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5EA20416B907290004284F /* UIKit.framework */; };
+		9E5EA22E16B907290004284F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5EA20616B907290004284F /* Foundation.framework */; };
+		9E5EA23616B907290004284F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E5EA23416B907290004284F /* InfoPlist.strings */; };
+		9E5EA23916B907290004284F /* NextGenToyotaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5EA23816B907290004284F /* NextGenToyotaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E5EA22F16B907290004284F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E5EA1F716B907290004284F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E5EA1FF16B907290004284F;
+			remoteInfo = NextGenToyota;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9E5EA20016B907290004284F /* NextGenToyota.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NextGenToyota.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E5EA20416B907290004284F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9E5EA20616B907290004284F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9E5EA20816B907290004284F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9E5EA20C16B907290004284F /* NextGenToyota-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NextGenToyota-Info.plist"; sourceTree = "<group>"; };
+		9E5EA20E16B907290004284F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9E5EA21016B907290004284F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E5EA21216B907290004284F /* NextGenToyota-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NextGenToyota-Prefix.pch"; sourceTree = "<group>"; };
+		9E5EA21316B907290004284F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9E5EA21416B907290004284F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9E5EA21616B907290004284F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9E5EA21816B907290004284F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9E5EA21A16B907290004284F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9E5EA21D16B907290004284F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		9E5EA22016B907290004284F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		9E5EA22216B907290004284F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9E5EA22316B907290004284F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9E5EA22A16B907290004284F /* NextGenToyotaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NextGenToyotaTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E5EA22B16B907290004284F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		9E5EA23316B907290004284F /* NextGenToyotaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NextGenToyotaTests-Info.plist"; sourceTree = "<group>"; };
+		9E5EA23516B907290004284F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9E5EA23716B907290004284F /* NextGenToyotaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextGenToyotaTests.h; sourceTree = "<group>"; };
+		9E5EA23816B907290004284F /* NextGenToyotaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextGenToyotaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E5EA1FD16B907290004284F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E5EA20516B907290004284F /* UIKit.framework in Frameworks */,
+				9E5EA20716B907290004284F /* Foundation.framework in Frameworks */,
+				9E5EA20916B907290004284F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E5EA22616B907290004284F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E5EA22C16B907290004284F /* SenTestingKit.framework in Frameworks */,
+				9E5EA22D16B907290004284F /* UIKit.framework in Frameworks */,
+				9E5EA22E16B907290004284F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E5EA1F516B907290004284F = {
+			isa = PBXGroup;
+			children = (
+				9E5EA20A16B907290004284F /* NextGenToyota */,
+				9E5EA23116B907290004284F /* NextGenToyotaTests */,
+				9E5EA20316B907290004284F /* Frameworks */,
+				9E5EA20116B907290004284F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E5EA20116B907290004284F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E5EA20016B907290004284F /* NextGenToyota.app */,
+				9E5EA22A16B907290004284F /* NextGenToyotaTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E5EA20316B907290004284F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E5EA20416B907290004284F /* UIKit.framework */,
+				9E5EA20616B907290004284F /* Foundation.framework */,
+				9E5EA20816B907290004284F /* CoreGraphics.framework */,
+				9E5EA22B16B907290004284F /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E5EA20A16B907290004284F /* NextGenToyota */ = {
+			isa = PBXGroup;
+			children = (
+				9E5EA21316B907290004284F /* AppDelegate.h */,
+				9E5EA21416B907290004284F /* AppDelegate.m */,
+				9E5EA21C16B907290004284F /* MainStoryboard_iPhone.storyboard */,
+				9E5EA21F16B907290004284F /* MainStoryboard_iPad.storyboard */,
+				9E5EA22216B907290004284F /* ViewController.h */,
+				9E5EA22316B907290004284F /* ViewController.m */,
+				9E5EA20B16B907290004284F /* Supporting Files */,
+			);
+			path = NextGenToyota;
+			sourceTree = "<group>";
+		};
+		9E5EA20B16B907290004284F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E5EA20C16B907290004284F /* NextGenToyota-Info.plist */,
+				9E5EA20D16B907290004284F /* InfoPlist.strings */,
+				9E5EA21016B907290004284F /* main.m */,
+				9E5EA21216B907290004284F /* NextGenToyota-Prefix.pch */,
+				9E5EA21616B907290004284F /* Default.png */,
+				9E5EA21816B907290004284F /* Default@2x.png */,
+				9E5EA21A16B907290004284F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E5EA23116B907290004284F /* NextGenToyotaTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E5EA23716B907290004284F /* NextGenToyotaTests.h */,
+				9E5EA23816B907290004284F /* NextGenToyotaTests.m */,
+				9E5EA23216B907290004284F /* Supporting Files */,
+			);
+			path = NextGenToyotaTests;
+			sourceTree = "<group>";
+		};
+		9E5EA23216B907290004284F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E5EA23316B907290004284F /* NextGenToyotaTests-Info.plist */,
+				9E5EA23416B907290004284F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E5EA1FF16B907290004284F /* NextGenToyota */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E5EA23C16B907290004284F /* Build configuration list for PBXNativeTarget "NextGenToyota" */;
+			buildPhases = (
+				9E5EA1FC16B907290004284F /* Sources */,
+				9E5EA1FD16B907290004284F /* Frameworks */,
+				9E5EA1FE16B907290004284F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NextGenToyota;
+			productName = NextGenToyota;
+			productReference = 9E5EA20016B907290004284F /* NextGenToyota.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E5EA22916B907290004284F /* NextGenToyotaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E5EA23F16B907290004284F /* Build configuration list for PBXNativeTarget "NextGenToyotaTests" */;
+			buildPhases = (
+				9E5EA22516B907290004284F /* Sources */,
+				9E5EA22616B907290004284F /* Frameworks */,
+				9E5EA22716B907290004284F /* Resources */,
+				9E5EA22816B907290004284F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E5EA23016B907290004284F /* PBXTargetDependency */,
+			);
+			name = NextGenToyotaTests;
+			productName = NextGenToyotaTests;
+			productReference = 9E5EA22A16B907290004284F /* NextGenToyotaTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E5EA1F716B907290004284F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Chime Lab";
+			};
+			buildConfigurationList = 9E5EA1FA16B907290004284F /* Build configuration list for PBXProject "NextGenToyota" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9E5EA1F516B907290004284F;
+			productRefGroup = 9E5EA20116B907290004284F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E5EA1FF16B907290004284F /* NextGenToyota */,
+				9E5EA22916B907290004284F /* NextGenToyotaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E5EA1FE16B907290004284F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E5EA20F16B907290004284F /* InfoPlist.strings in Resources */,
+				9E5EA21716B907290004284F /* Default.png in Resources */,
+				9E5EA21916B907290004284F /* Default@2x.png in Resources */,
+				9E5EA21B16B907290004284F /* Default-568h@2x.png in Resources */,
+				9E5EA21E16B907290004284F /* MainStoryboard_iPhone.storyboard in Resources */,
+				9E5EA22116B907290004284F /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E5EA22716B907290004284F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E5EA23616B907290004284F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9E5EA22816B907290004284F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E5EA1FC16B907290004284F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E5EA21116B907290004284F /* main.m in Sources */,
+				9E5EA21516B907290004284F /* AppDelegate.m in Sources */,
+				9E5EA22416B907290004284F /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E5EA22516B907290004284F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E5EA23916B907290004284F /* NextGenToyotaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E5EA23016B907290004284F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E5EA1FF16B907290004284F /* NextGenToyota */;
+			targetProxy = 9E5EA22F16B907290004284F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9E5EA20D16B907290004284F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E5EA20E16B907290004284F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9E5EA21C16B907290004284F /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E5EA21D16B907290004284F /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9E5EA21F16B907290004284F /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E5EA22016B907290004284F /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		9E5EA23416B907290004284F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E5EA23516B907290004284F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E5EA23A16B907290004284F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E5EA23B16B907290004284F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E5EA23D16B907290004284F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NextGenToyota/NextGenToyota-Prefix.pch";
+				INFOPLIST_FILE = "NextGenToyota/NextGenToyota-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9E5EA23E16B907290004284F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NextGenToyota/NextGenToyota-Prefix.pch";
+				INFOPLIST_FILE = "NextGenToyota/NextGenToyota-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9E5EA24016B907290004284F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NextGenToyota.app/NextGenToyota";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NextGenToyota/NextGenToyota-Prefix.pch";
+				INFOPLIST_FILE = "NextGenToyotaTests/NextGenToyotaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9E5EA24116B907290004284F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NextGenToyota.app/NextGenToyota";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NextGenToyota/NextGenToyota-Prefix.pch";
+				INFOPLIST_FILE = "NextGenToyotaTests/NextGenToyotaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E5EA1FA16B907290004284F /* Build configuration list for PBXProject "NextGenToyota" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E5EA23A16B907290004284F /* Debug */,
+				9E5EA23B16B907290004284F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E5EA23C16B907290004284F /* Build configuration list for PBXNativeTarget "NextGenToyota" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E5EA23D16B907290004284F /* Debug */,
+				9E5EA23E16B907290004284F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9E5EA23F16B907290004284F /* Build configuration list for PBXNativeTarget "NextGenToyotaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E5EA24016B907290004284F /* Debug */,
+				9E5EA24116B907290004284F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E5EA1F716B907290004284F /* Project object */;
+}
