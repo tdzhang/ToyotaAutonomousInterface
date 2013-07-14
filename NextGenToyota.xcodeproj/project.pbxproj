@@ -18,12 +18,38 @@
 		9E5EA21B16B907290004284F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E5EA21A16B907290004284F /* Default-568h@2x.png */; };
 		9E5EA21E16B907290004284F /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E5EA21C16B907290004284F /* MainStoryboard_iPhone.storyboard */; };
 		9E5EA22116B907290004284F /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E5EA21F16B907290004284F /* MainStoryboard_iPad.storyboard */; };
-		9E5EA22416B907290004284F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5EA22316B907290004284F /* ViewController.m */; };
+		9E5EA22416B907290004284F /* InitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5EA22316B907290004284F /* InitialViewController.m */; };
 		9E5EA22C16B907290004284F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5EA22B16B907290004284F /* SenTestingKit.framework */; };
 		9E5EA22D16B907290004284F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5EA20416B907290004284F /* UIKit.framework */; };
 		9E5EA22E16B907290004284F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5EA20616B907290004284F /* Foundation.framework */; };
 		9E5EA23616B907290004284F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E5EA23416B907290004284F /* InfoPlist.strings */; };
 		9E5EA23916B907290004284F /* NextGenToyotaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E5EA23816B907290004284F /* NextGenToyotaTests.m */; };
+		9EBBDDF616CB903D0095D163 /* VoiceRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EBBDDF516CB903D0095D163 /* VoiceRecognizer.m */; };
+		9EBBDE0A16CB91040095D163 /* cmu07a.dic in Resources */ = {isa = PBXBuildFile; fileRef = 9EBBDDFA16CB91040095D163 /* cmu07a.dic */; };
+		9EBBDE0B16CB91040095D163 /* feat.params in Resources */ = {isa = PBXBuildFile; fileRef = 9EBBDDFC16CB91040095D163 /* feat.params */; };
+		9EBBDE0C16CB91040095D163 /* mdef in Resources */ = {isa = PBXBuildFile; fileRef = 9EBBDDFD16CB91040095D163 /* mdef */; };
+		9EBBDE0D16CB91040095D163 /* means in Resources */ = {isa = PBXBuildFile; fileRef = 9EBBDDFE16CB91040095D163 /* means */; };
+		9EBBDE0E16CB91040095D163 /* noisedict in Resources */ = {isa = PBXBuildFile; fileRef = 9EBBDDFF16CB91040095D163 /* noisedict */; };
+		9EBBDE0F16CB91040095D163 /* sendump in Resources */ = {isa = PBXBuildFile; fileRef = 9EBBDE0016CB91040095D163 /* sendump */; };
+		9EBBDE1016CB91040095D163 /* transition_matrices in Resources */ = {isa = PBXBuildFile; fileRef = 9EBBDE0116CB91040095D163 /* transition_matrices */; };
+		9EBBDE1116CB91040095D163 /* variances in Resources */ = {isa = PBXBuildFile; fileRef = 9EBBDE0216CB91040095D163 /* variances */; };
+		9EBBDE1216CB91040095D163 /* OpenEars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBBDE0316CB91040095D163 /* OpenEars.framework */; };
+		9EBBDE1316CB91040095D163 /* OpenEars1.dic in Resources */ = {isa = PBXBuildFile; fileRef = 9EBBDE0416CB91040095D163 /* OpenEars1.dic */; };
+		9EBBDE1416CB91040095D163 /* OpenEars1.gram in Resources */ = {isa = PBXBuildFile; fileRef = 9EBBDE0516CB91040095D163 /* OpenEars1.gram */; };
+		9EBBDE1516CB91040095D163 /* OpenEars1.languagemodel in Resources */ = {isa = PBXBuildFile; fileRef = 9EBBDE0616CB91040095D163 /* OpenEars1.languagemodel */; };
+		9EBBDE1616CB91040095D163 /* OpenEars2.gram in Resources */ = {isa = PBXBuildFile; fileRef = 9EBBDE0716CB91040095D163 /* OpenEars2.gram */; };
+		9EBBDE1716CB91040095D163 /* OpenEarsCorpus.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9EBBDE0816CB91040095D163 /* OpenEarsCorpus.txt */; };
+		9EBBDE1816CB91040095D163 /* Slt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBBDE0916CB91040095D163 /* Slt.framework */; };
+		9EC5523B16B9B9B50030B278 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC5523A16B9B9B50030B278 /* AVFoundation.framework */; };
+		9EC5524016B9BA1B0030B278 /* check-mark-in-white-th.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EC5523D16B9BA1B0030B278 /* check-mark-in-white-th.png */; };
+		9EC5524116B9BA1B0030B278 /* check-mark-in-white-th.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EC5523D16B9BA1B0030B278 /* check-mark-in-white-th.png */; };
+		9EC5524216B9BA1B0030B278 /* Version1OFF_clipped.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 9EC5523E16B9BA1B0030B278 /* Version1OFF_clipped.m4a */; };
+		9EC5524316B9BA1B0030B278 /* Version1OFF_clipped.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 9EC5523E16B9BA1B0030B278 /* Version1OFF_clipped.m4a */; };
+		9EC5524416B9BA1B0030B278 /* Version1ON_clipped.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 9EC5523F16B9BA1B0030B278 /* Version1ON_clipped.m4a */; };
+		9EC5524516B9BA1B0030B278 /* Version1ON_clipped.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 9EC5523F16B9BA1B0030B278 /* Version1ON_clipped.m4a */; };
+		9EC552A816B9D2430030B278 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC552A716B9D2430030B278 /* AudioToolbox.framework */; };
+		9ECA68AE16D7524A00FBAE81 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECA68AD16D7524A00FBAE81 /* MenuViewController.m */; };
+		9ED4F8B416BAECFD00F58DBC /* NetworkCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED4F8B316BAECFD00F58DBC /* NetworkCommunicator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,14 +78,40 @@
 		9E5EA21A16B907290004284F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		9E5EA21D16B907290004284F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		9E5EA22016B907290004284F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		9E5EA22216B907290004284F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9E5EA22316B907290004284F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9E5EA22216B907290004284F /* InitialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InitialViewController.h; sourceTree = "<group>"; };
+		9E5EA22316B907290004284F /* InitialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InitialViewController.m; sourceTree = "<group>"; };
 		9E5EA22A16B907290004284F /* NextGenToyotaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NextGenToyotaTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E5EA22B16B907290004284F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		9E5EA23316B907290004284F /* NextGenToyotaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NextGenToyotaTests-Info.plist"; sourceTree = "<group>"; };
 		9E5EA23516B907290004284F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9E5EA23716B907290004284F /* NextGenToyotaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextGenToyotaTests.h; sourceTree = "<group>"; };
 		9E5EA23816B907290004284F /* NextGenToyotaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextGenToyotaTests.m; sourceTree = "<group>"; };
+		9EBBDDF416CB903D0095D163 /* VoiceRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceRecognizer.h; sourceTree = "<group>"; };
+		9EBBDDF516CB903D0095D163 /* VoiceRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceRecognizer.m; sourceTree = "<group>"; };
+		9EBBDDFA16CB91040095D163 /* cmu07a.dic */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cmu07a.dic; sourceTree = "<group>"; };
+		9EBBDDFC16CB91040095D163 /* feat.params */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = feat.params; sourceTree = "<group>"; };
+		9EBBDDFD16CB91040095D163 /* mdef */ = {isa = PBXFileReference; lastKnownFileType = file; path = mdef; sourceTree = "<group>"; };
+		9EBBDDFE16CB91040095D163 /* means */ = {isa = PBXFileReference; lastKnownFileType = file; path = means; sourceTree = "<group>"; };
+		9EBBDDFF16CB91040095D163 /* noisedict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = noisedict; sourceTree = "<group>"; };
+		9EBBDE0016CB91040095D163 /* sendump */ = {isa = PBXFileReference; lastKnownFileType = file; path = sendump; sourceTree = "<group>"; };
+		9EBBDE0116CB91040095D163 /* transition_matrices */ = {isa = PBXFileReference; lastKnownFileType = file; path = transition_matrices; sourceTree = "<group>"; };
+		9EBBDE0216CB91040095D163 /* variances */ = {isa = PBXFileReference; lastKnownFileType = file; path = variances; sourceTree = "<group>"; };
+		9EBBDE0316CB91040095D163 /* OpenEars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenEars.framework; sourceTree = "<group>"; };
+		9EBBDE0416CB91040095D163 /* OpenEars1.dic */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OpenEars1.dic; sourceTree = "<group>"; };
+		9EBBDE0516CB91040095D163 /* OpenEars1.gram */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OpenEars1.gram; sourceTree = "<group>"; };
+		9EBBDE0616CB91040095D163 /* OpenEars1.languagemodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OpenEars1.languagemodel; sourceTree = "<group>"; };
+		9EBBDE0716CB91040095D163 /* OpenEars2.gram */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OpenEars2.gram; sourceTree = "<group>"; };
+		9EBBDE0816CB91040095D163 /* OpenEarsCorpus.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OpenEarsCorpus.txt; sourceTree = "<group>"; };
+		9EBBDE0916CB91040095D163 /* Slt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Slt.framework; sourceTree = "<group>"; };
+		9EC5523A16B9B9B50030B278 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9EC5523D16B9BA1B0030B278 /* check-mark-in-white-th.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check-mark-in-white-th.png"; sourceTree = "<group>"; };
+		9EC5523E16B9BA1B0030B278 /* Version1OFF_clipped.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Version1OFF_clipped.m4a; sourceTree = "<group>"; };
+		9EC5523F16B9BA1B0030B278 /* Version1ON_clipped.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Version1ON_clipped.m4a; sourceTree = "<group>"; };
+		9EC552A716B9D2430030B278 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9ECA68AC16D7524A00FBAE81 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		9ECA68AD16D7524A00FBAE81 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		9ED4F8B216BAECFD00F58DBC /* NetworkCommunicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkCommunicator.h; sourceTree = "<group>"; };
+		9ED4F8B316BAECFD00F58DBC /* NetworkCommunicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkCommunicator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,9 +119,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EC552A816B9D2430030B278 /* AudioToolbox.framework in Frameworks */,
+				9EC5523B16B9B9B50030B278 /* AVFoundation.framework in Frameworks */,
 				9E5EA20516B907290004284F /* UIKit.framework in Frameworks */,
 				9E5EA20716B907290004284F /* Foundation.framework in Frameworks */,
 				9E5EA20916B907290004284F /* CoreGraphics.framework in Frameworks */,
+				9EBBDE1216CB91040095D163 /* OpenEars.framework in Frameworks */,
+				9EBBDE1816CB91040095D163 /* Slt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +145,9 @@
 		9E5EA1F516B907290004284F = {
 			isa = PBXGroup;
 			children = (
+				9EBBDDF916CB91040095D163 /* Frameworks */,
+				9EC552A716B9D2430030B278 /* AudioToolbox.framework */,
+				9EC5523A16B9B9B50030B278 /* AVFoundation.framework */,
 				9E5EA20A16B907290004284F /* NextGenToyota */,
 				9E5EA23116B907290004284F /* NextGenToyotaTests */,
 				9E5EA20316B907290004284F /* Frameworks */,
@@ -119,12 +178,16 @@
 		9E5EA20A16B907290004284F /* NextGenToyota */ = {
 			isa = PBXGroup;
 			children = (
+				9EBBDDF816CB90440095D163 /* VoiceRecognition */,
+				9ED4F8B616BB083100F58DBC /* Networking */,
 				9E5EA21316B907290004284F /* AppDelegate.h */,
 				9E5EA21416B907290004284F /* AppDelegate.m */,
 				9E5EA21C16B907290004284F /* MainStoryboard_iPhone.storyboard */,
 				9E5EA21F16B907290004284F /* MainStoryboard_iPad.storyboard */,
-				9E5EA22216B907290004284F /* ViewController.h */,
-				9E5EA22316B907290004284F /* ViewController.m */,
+				9ECA68AC16D7524A00FBAE81 /* MenuViewController.h */,
+				9ECA68AD16D7524A00FBAE81 /* MenuViewController.m */,
+				9E5EA22216B907290004284F /* InitialViewController.h */,
+				9E5EA22316B907290004284F /* InitialViewController.m */,
 				9E5EA20B16B907290004284F /* Supporting Files */,
 			);
 			path = NextGenToyota;
@@ -133,6 +196,7 @@
 		9E5EA20B16B907290004284F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9EC5524616B9BA230030B278 /* Resource */,
 				9E5EA20C16B907290004284F /* NextGenToyota-Info.plist */,
 				9E5EA20D16B907290004284F /* InfoPlist.strings */,
 				9E5EA21016B907290004284F /* main.m */,
@@ -161,6 +225,64 @@
 				9E5EA23416B907290004284F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9EBBDDF816CB90440095D163 /* VoiceRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				9EBBDDF416CB903D0095D163 /* VoiceRecognizer.h */,
+				9EBBDDF516CB903D0095D163 /* VoiceRecognizer.m */,
+			);
+			name = VoiceRecognition;
+			sourceTree = "<group>";
+		};
+		9EBBDDF916CB91040095D163 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EBBDDFA16CB91040095D163 /* cmu07a.dic */,
+				9EBBDDFB16CB91040095D163 /* hub4wsj_sc_8k */,
+				9EBBDE0316CB91040095D163 /* OpenEars.framework */,
+				9EBBDE0416CB91040095D163 /* OpenEars1.dic */,
+				9EBBDE0516CB91040095D163 /* OpenEars1.gram */,
+				9EBBDE0616CB91040095D163 /* OpenEars1.languagemodel */,
+				9EBBDE0716CB91040095D163 /* OpenEars2.gram */,
+				9EBBDE0816CB91040095D163 /* OpenEarsCorpus.txt */,
+				9EBBDE0916CB91040095D163 /* Slt.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		9EBBDDFB16CB91040095D163 /* hub4wsj_sc_8k */ = {
+			isa = PBXGroup;
+			children = (
+				9EBBDDFC16CB91040095D163 /* feat.params */,
+				9EBBDDFD16CB91040095D163 /* mdef */,
+				9EBBDDFE16CB91040095D163 /* means */,
+				9EBBDDFF16CB91040095D163 /* noisedict */,
+				9EBBDE0016CB91040095D163 /* sendump */,
+				9EBBDE0116CB91040095D163 /* transition_matrices */,
+				9EBBDE0216CB91040095D163 /* variances */,
+			);
+			path = hub4wsj_sc_8k;
+			sourceTree = "<group>";
+		};
+		9EC5524616B9BA230030B278 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9EC5523D16B9BA1B0030B278 /* check-mark-in-white-th.png */,
+				9EC5523E16B9BA1B0030B278 /* Version1OFF_clipped.m4a */,
+				9EC5523F16B9BA1B0030B278 /* Version1ON_clipped.m4a */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		9ED4F8B616BB083100F58DBC /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				9ED4F8B216BAECFD00F58DBC /* NetworkCommunicator.h */,
+				9ED4F8B316BAECFD00F58DBC /* NetworkCommunicator.m */,
+			);
+			name = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +362,22 @@
 				9E5EA21B16B907290004284F /* Default-568h@2x.png in Resources */,
 				9E5EA21E16B907290004284F /* MainStoryboard_iPhone.storyboard in Resources */,
 				9E5EA22116B907290004284F /* MainStoryboard_iPad.storyboard in Resources */,
+				9EC5524016B9BA1B0030B278 /* check-mark-in-white-th.png in Resources */,
+				9EC5524216B9BA1B0030B278 /* Version1OFF_clipped.m4a in Resources */,
+				9EC5524416B9BA1B0030B278 /* Version1ON_clipped.m4a in Resources */,
+				9EBBDE0A16CB91040095D163 /* cmu07a.dic in Resources */,
+				9EBBDE0B16CB91040095D163 /* feat.params in Resources */,
+				9EBBDE0C16CB91040095D163 /* mdef in Resources */,
+				9EBBDE0D16CB91040095D163 /* means in Resources */,
+				9EBBDE0E16CB91040095D163 /* noisedict in Resources */,
+				9EBBDE0F16CB91040095D163 /* sendump in Resources */,
+				9EBBDE1016CB91040095D163 /* transition_matrices in Resources */,
+				9EBBDE1116CB91040095D163 /* variances in Resources */,
+				9EBBDE1316CB91040095D163 /* OpenEars1.dic in Resources */,
+				9EBBDE1416CB91040095D163 /* OpenEars1.gram in Resources */,
+				9EBBDE1516CB91040095D163 /* OpenEars1.languagemodel in Resources */,
+				9EBBDE1616CB91040095D163 /* OpenEars2.gram in Resources */,
+				9EBBDE1716CB91040095D163 /* OpenEarsCorpus.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +386,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E5EA23616B907290004284F /* InfoPlist.strings in Resources */,
+				9EC5524116B9BA1B0030B278 /* check-mark-in-white-th.png in Resources */,
+				9EC5524316B9BA1B0030B278 /* Version1OFF_clipped.m4a in Resources */,
+				9EC5524516B9BA1B0030B278 /* Version1ON_clipped.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +417,10 @@
 			files = (
 				9E5EA21116B907290004284F /* main.m in Sources */,
 				9E5EA21516B907290004284F /* AppDelegate.m in Sources */,
-				9E5EA22416B907290004284F /* ViewController.m in Sources */,
+				9E5EA22416B907290004284F /* InitialViewController.m in Sources */,
+				9ED4F8B416BAECFD00F58DBC /* NetworkCommunicator.m in Sources */,
+				9EBBDDF616CB903D0095D163 /* VoiceRecognizer.m in Sources */,
+				9ECA68AE16D7524A00FBAE81 /* MenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,9 +533,15 @@
 		9E5EA23D16B907290004284F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Framework\"",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NextGenToyota/NextGenToyota-Prefix.pch";
 				INFOPLIST_FILE = "NextGenToyota/NextGenToyota-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -400,9 +550,15 @@
 		9E5EA23E16B907290004284F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Framework\"",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NextGenToyota/NextGenToyota-Prefix.pch";
 				INFOPLIST_FILE = "NextGenToyota/NextGenToyota-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -415,6 +571,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SRCROOT)/Framework\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NextGenToyota/NextGenToyota-Prefix.pch";
@@ -432,6 +589,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SRCROOT)/Framework\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NextGenToyota/NextGenToyota-Prefix.pch";
@@ -461,6 +619,7 @@
 				9E5EA23E16B907290004284F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E5EA23F16B907290004284F /* Build configuration list for PBXNativeTarget "NextGenToyotaTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +628,7 @@
 				9E5EA24116B907290004284F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
